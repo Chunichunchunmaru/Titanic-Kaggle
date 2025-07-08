@@ -1,0 +1,27 @@
+# Python virtual environment folders
+env/
+venv/
+.venv/
+
+# Common OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoint folders
+.ipynb_checkpoints/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Model output files (generated, not source)
+submission.csv
+*.zip
+*.pkl # For saved models (e.g., via joblib or pickle)
+
+# VS Code specific files
+.vscode/
+
+# Cloud credential files (CRITICAL: DO NOT track these!)
+*.json # Be careful if you have other JSON files you DO want to track
+service_account_key.json # Example specific name for a credential file
